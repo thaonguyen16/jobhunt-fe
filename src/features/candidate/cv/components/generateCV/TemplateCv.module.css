@@ -1,0 +1,29 @@
+.html-content {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.html-content li,
+.html-content ol,
+.html-content ul,
+.html-content b,
+.html-content p {
+  all: unset;
+  display: revert;
+}
+
+.cv-container {
+  width: 595px;
+  height: 842px;
+  transform: scale(0.6);
+  transform-origin: center;
+}
+
+.cv-wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}

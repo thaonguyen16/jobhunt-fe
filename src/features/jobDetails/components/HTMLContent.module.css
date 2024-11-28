@@ -1,0 +1,19 @@
+.html-content {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.html-content ol {
+  padding-left: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.html-content [data-list="bullet"] {
+  list-style-type: disc;
+}
+
+.html-content [data-list="bullet"] > li {
+  list-style-type: circle; /* Đảm bảo rằng các mục con cũng sử dụng bullet */
+}

@@ -1,0 +1,33 @@
+.job-demand {
+    .m_82577fc2 {
+        width: fit-content;
+    }
+
+    [data-mantine-color-scheme='light'] .m_6c018570[data-variant='default'] {
+        --input-bd: rgba(0,0,0,0) !important;
+        --input-bg: var(--mantine-color-white);
+        --input-bd-focus: var(--mantine-primary-color-filled);
+    }
+
+    .dropdown {
+        overflow-y: scroll;
+        
+        background-color: white;
+        max-height: 10rem;
+    }
+
+}
+
+.input {
+    [data-mantine-color-scheme='light'] 
+    .m_6c018570[data-variant='default'] {
+        --input-bd: rgba(0,0,0,0);
+        --input-bg: var(--mantine-color-white);
+        --input-bd-focus: var(--mantine-primary-color-filled);
+    }
+
+    input {
+        background-color: white;
+    }
+}
+

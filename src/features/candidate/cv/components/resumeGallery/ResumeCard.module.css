@@ -1,0 +1,6 @@
+.resume-card {
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  transform-origin: top center;
+}

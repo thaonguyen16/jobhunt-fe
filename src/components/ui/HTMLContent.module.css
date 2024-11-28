@@ -1,0 +1,14 @@
+.html-content {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.html-content ol {
+  list-style-type: decimal; /* or other desired list style type */
+}
+
+.html-content ul {
+  list-style-type: circle;
+}

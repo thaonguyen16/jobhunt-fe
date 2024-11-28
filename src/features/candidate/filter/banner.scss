@@ -1,0 +1,27 @@
+.carousel {
+  @mixin hover {
+    .carouselControls {
+      opacity: 1;
+    }
+  }
+
+  .m_87cf2631 {
+    background-color: white !important;
+  }
+  transition: width 250ms ease;
+}
+
+.carouselControls {
+  transition: opacity 150ms ease;
+  opacity: 4;
+}
+
+.carouselIndicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  transition: width 250ms ease;
+
+  &[data-active] {
+    width: 2rem;
+  }
+}

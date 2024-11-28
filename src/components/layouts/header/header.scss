@@ -1,0 +1,10 @@
+.custom-header {
+    .m_f0824112 {
+        --nl-bg: white !important;
+    }
+
+    .m_f0824112:where([data-active], [aria-current='page']) {
+        background-color: white !important;
+        color: var(--nl-color);
+    }
+}

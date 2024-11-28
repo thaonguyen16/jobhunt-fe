@@ -1,0 +1,26 @@
+.combox-location {
+
+    background-color: white;
+
+    border-radius: 10px;
+    width: 20%;
+
+    .m_6c018570 {
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.dropdowm-location {
+    overflow-y: scroll;
+    margin-top: 1rem;
+    background-color: white;
+    max-height: 25rem;
+}
+
+.m_38a85659 {
+    border: 1px solid rgba(38, 38, 38, 0) !important;
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.1) !important;
+}
