@@ -1,0 +1,10 @@
+export { default as LogoInformation } from "./components/LogoInformation";
+export { default as InformationSection } from "./components/InformationSection";
+export { default as HTMLContent } from "./components/HTMLContent";
+export { default as JobDescription } from "./components/JobDescription";
+export { default as Buttons } from "./components/Buttons";
+export { default as CompanyShortProfile } from "./components/aside/CompanyShortProfile";
+export { default as AsideChildContainer } from "./components/aside/AsideChildContainer";
+export { default as GeneralInfo } from "./components/aside/GeneralInfo";
+export { default as KeyInfo } from "./components/aside/KeyInfo";
+export { default as JobDetailHeader } from "./components/JobDetailHeader";

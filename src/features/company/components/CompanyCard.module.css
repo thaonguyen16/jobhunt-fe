@@ -1,0 +1,7 @@
+.compay-card {
+  transition: transform 0.2s;
+}
+
+.company-card:hover {
+  transform: scale(1.05);
+}

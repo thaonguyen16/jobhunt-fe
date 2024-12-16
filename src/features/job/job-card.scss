@@ -1,0 +1,23 @@
+.job-card {
+  position: relative;
+  transition: box-shadow 0.3s ease-out, border 0.3s ease-out, transform 0.3s ease-out;
+  
+  will-change: transform, box-shadow;
+
+  &:hover {
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.1);
+    background-color: white;
+    transform: translateY(-5px);
+  }
+}
+
+.job-card-2 {
+  position: relative;
+  transition: box-shadow 0.3s ease-out, border 0.3s ease-out, transform 0.3s ease-out;
+  will-change: transform, box-shadow;
+
+  &:hover {
+    background-color: white;
+    transform: translateY(-5px);
+  }
+}

@@ -1,0 +1,49 @@
+.form-re::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+.form-re::-webkit-scrollbar-thumb {
+    background-color: black !important;
+}
+.form-re::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+.form-re {
+
+    background-color: rgba($color: white, $alpha: 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1rem;
+    position: relative;
+    z-index: 3;
+
+    .m_8fdc1311 {
+        color: white;
+    }
+
+    overflow-x: hi;
+
+    .m_6c018570 {
+        background-color: transparent;
+    }
+
+    .m_6c018570[data-variant='default'] {
+        --input-bd: rgba(255,255,255.5) !important;
+        --input-bg: rgba(0,0,0,0) !important;
+        --input-bd-focus: var(--mantine-primary-color-filled);
+    }
+
+    [data-mantine-color-scheme='light'] .m_6c018570[data-variant='default'] {
+        --input-bd: rgba(255,255,255.2) !important;
+        --input-bg: rgba(0,0,0,0) !important;
+        --input-bd-focus: var(--mantine-primary-color-filled);
+    }
+    .m_8fb7ebe7 {
+        color: white;
+    }
+    
+}

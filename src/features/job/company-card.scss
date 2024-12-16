@@ -1,0 +1,31 @@
+.company-card {
+    transition: all 1s ease-out;
+   
+    .m_11f8ac07 {
+      object-fit: contain;
+    }
+
+    &:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.2);       
+        background-color: white;
+      }
+
+      &:before {
+        content: "";
+        background: #00838d;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 1s ease-out;
+      }
+    
+      &:hover:before {
+        transform: scale(2.15);
+      }
+
+
+
+}

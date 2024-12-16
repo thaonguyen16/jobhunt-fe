@@ -1,0 +1,22 @@
+.html-content {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.html-content li,
+.html-content ol,
+.html-content ul,
+.html-content b,
+.html-content p {
+  all: unset;
+  display: revert;
+}
+
+.cv-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 595px; /* A4 width in px */
+  height: 842px; /* A4 height in px */
+}
